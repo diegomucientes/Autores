@@ -1,0 +1,14 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    max-width:50rem;
+
+}
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: repeat(5,1fr);
+    max-width: 50rem;
+    background-color: aquamarine;
+    
+}
